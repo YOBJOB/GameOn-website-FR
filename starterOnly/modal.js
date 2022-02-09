@@ -17,9 +17,9 @@ const closemodal = document.querySelector(".close");
 
 // launch modal event
 modalBtn.forEach((btn) => btn.addEventListener("click", launchModal));
-// click sur "je m'inscrit" ouverture modal
+//Si click sur "btn je m'inscrit" ouverture modal
 closemodal.addEventListener("click", closeConfirm); 
-// click sur croix fermeture
+//Si click sur croix fermeture utilise fonction CloseConfirm
 
 // launch modal form
 function launchModal() {
