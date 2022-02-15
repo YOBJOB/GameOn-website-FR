@@ -68,6 +68,12 @@ img {
   display: none;
 }
 
+.error-input {
+  padding-top: 4px;
+  text-align: end;
+  font-size: 15px;
+}
+
 @media screen and (max-width: 768px) {
   .topnav a {display: none;}
   .topnav a.icon {
